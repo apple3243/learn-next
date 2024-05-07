@@ -1,0 +1,8 @@
+NextJS is a Framework of ReactJS. Basically it's building a website using our codes
+
+- npm install react@latest next@latest react-dom@latest      
+
+- To use NextJS, it's important to have app/page.tsx( or .jsx) file.
+
+- Folder directory is going to be the path of URL
+
