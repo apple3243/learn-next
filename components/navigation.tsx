@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import styles from "./navigation.module.css"
 
 export default function Navigation(){
     const path = usePathname();
     return(
-        <nav>
+        <nav className={styles.nav}> {/* This module css will create a random class */}
             <ul>
                 <li>
                     <Link href="/">Home</Link> {path === "/" ? "💥" : ""}
